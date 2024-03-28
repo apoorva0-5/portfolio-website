@@ -12,7 +12,7 @@ const Hero = () => {
           <p>creating, thoughtful, intuitive interfaces.</p>
         </div>
 
-        <div className="my-10 text-gray-300">
+        <div className="my-10 text-gray-400">
           <p className="my-5">
             I'm Utkarsh Pandey, a passionate Software Engineer entering the
             professional realm with a fervent drive for innovation and
