@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
 
         <div className="my-10 text-gray-300">
           <p className="my-5">
-            I am Utkarsh Pandey, a passionate Software Engineer entering the
+            I'm Utkarsh Pandey, a passionate Software Engineer entering the
             professional realm with a fervent drive for innovation and
             problem-solving. As a fresher in the field, I bring a solid
             understanding of software development principles and an unwavering
@@ -29,7 +30,7 @@ const Hero = () => {
           </p>
 
           <p className="my-5">
-            I am excited to embark on this journey, eager to collaborate with
+            I'm excited to embark on this journey, eager to collaborate with
             experienced professionals, and determined to make meaningful
             contributions to projects as I grow in my career as a Software
             Engineer.
@@ -39,13 +40,17 @@ const Hero = () => {
         <div>
             
             <div className="flex gap-2 text-3xl">
-                <Link to="https://www.linkedin.com/in/utkarsh125/">
-
+                <Link href="https://www.linkedin.com/in/utkarsh125/">
+                    <FaLinkedin />
                 </Link>
-                <FaSquareGithub />
+                <Link href="https://www.github.com/utkarsh125">
+                    <FaSquareGithub />
+                </Link>
             </div>
         </div>
       </div>
+      <hr className="mx-60 my-10"/>
+      
     </div>
   );
 };

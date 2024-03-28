@@ -14,7 +14,7 @@ const Navbar = () => {
                   class="h-8"
                   alt="Flowbite Logo"
                 /> */}
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap p-2 px-4 rounded-md bg-gradient-to-tr from-blue-900 to-blue-700">
               <h1>Utkarsh</h1>
               <p className="text-sm">Software Engineer</p>
             </span>
