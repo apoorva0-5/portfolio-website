@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import Link from "next/link";
+import { BsMailbox } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -39,13 +40,21 @@ const Hero = () => {
 
         <div>
             
-            <div className="flex gap-2 text-3xl">
-                <Link href="https://www.linkedin.com/in/utkarsh125/">
+            <div className="flex items-center gap-2">
+                <Link href="https://www.linkedin.com/in/utkarsh125/" className="text-3xl">
                     <FaLinkedin />
                 </Link>
-                <Link href="https://www.github.com/utkarsh125">
+                <Link href="https://www.github.com/utkarsh125" className="text-3xl">
                     <FaSquareGithub />
                 </Link>
+
+                <div className="text-md p-2 cursor-pointer hover:text-gray-900 hover:bg-white px-4 bg-gray-900 rounded-3xl">
+                  <p className="flex gap-2 items-center">
+                    <BsMailbox className="text-md font-bold"/>{`Email Me.`}
+                    </p>
+                </div>
+                
+                
             </div>
         </div>
       </div>
