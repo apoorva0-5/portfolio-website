@@ -22,7 +22,7 @@ const projectsData = [
 
 const Project = () => {
   return (
-    <div className="flex flex-col lg:px-80 gap-3 bg-black">
+    <div className="flex flex-col lg:px-80 gap-3 mx-5 bg-black">
       <div className="flex gap-3 ">
         <IoTerminal className="text-3xl" />
         <h1 className="text-xl font-bold">Featured Projects</h1>

@@ -5,8 +5,8 @@ const Card = ({imageUrl, title, description}) => {
     <div className='card bg-gray-900  cursor-pointer border border-slate-600 p-16 rounded-xl my-5'>
         <div className='card-body flex'>
             
-            <div className='flex gap-8'>
-                <img className="w-20 rounded-2xl object-contain" src={imageUrl} alt="" />
+            <div className='flex lg:flex-row flex-col gap-8'>
+                <img className="w-20 rounded-2xl sm:rounded-md object-contain" src={imageUrl} alt="" />
                 <div>
                 <div className='card-title font-bold'>
                 <h1 className='text-2xl'>

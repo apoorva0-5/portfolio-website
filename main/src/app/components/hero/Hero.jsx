@@ -5,14 +5,14 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="lg:mx-80 lg:my-20 ">
+    <div className="lg:mx-80 lg:my-20 mx-5 mt-20">
       <div>
-        <div className="text-4xl font-bold w-4/5">
+        <div className="text-4xl font-bold lg:w-4/5">
           <h1>Software Engineer</h1>
           <p>creating, thoughtful, intuitive interfaces.</p>
         </div>
 
-        <div className="my-10 text-gray-400">
+        <div className="my-10 text-gray-400 text-lg">
           <p className="my-5">
             I'm Utkarsh Pandey, a passionate Software Engineer entering the
             professional realm with a fervent drive for innovation and
@@ -49,7 +49,7 @@ const Hero = () => {
             </div>
         </div>
       </div>
-      <hr className="mx-60 my-10"/>
+      <hr className="lg:mx-60 lg:my-10 md:mx-52 md:my-10 my-10 mx-20"/>
       
     </div>
   );

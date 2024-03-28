@@ -1,4 +1,5 @@
 import React from "react";
+import { CgBot } from "react-icons/cg";
 
 const Navbar = () => {
   return (
@@ -6,7 +7,7 @@ const Navbar = () => {
       <nav class="relative w-full z-20 top-0 start-0">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="https://flowbite.com/"
+            href=""
             class="flex items-center space-x-3 rtl:space-x-reverse"
           >
             {/* <img
@@ -14,9 +15,13 @@ const Navbar = () => {
                   class="h-8"
                   alt="Flowbite Logo"
                 /> */}
-            <span class="self-center text-2xl font-semibold whitespace-nowrap p-2 px-4 rounded-md bg-gradient-to-tr from-blue-900 to-blue-700">
-              <h1>Utkarsh</h1>
-              <p className="text-sm">Software Engineer</p>
+            <span className="self-center text-2xl font-semibold whitespace-nowrap p-5 px-8">
+              <h1 className="flex gap-5">
+                <CgBot className="text-4xl" />
+                {/* <img src="/images/ricardo.gif" className="object-contain w-[40px] rounded-md" alt="" /> */}
+                {`Utkarsh Pandey`}
+                </h1>
+              {/* <p className="text-sm">Pandey</p> */}
             </span>
           </a>
           <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
