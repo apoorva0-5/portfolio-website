@@ -15,7 +15,7 @@ const Hero = () => {
 
         <div className="my-10 text-gray-400 text-lg">
           <p className="my-5">
-            I&apos;m Utkarsh Pandey, a passionate Software Engineer entering the
+            I&apos;m Apoorva, a passionate Software Engineer entering the
             professional realm with a fervent drive for innovation and
             problem-solving. As a fresher in the field, I bring a solid
             understanding of software development principles and an unwavering
