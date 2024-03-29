@@ -37,7 +37,6 @@ function Navbar() {
             {/* Mobile Menu */}
             <div className={isMobileMenuOpen ? "md:hidden block" : "md:hidden hidden"} id="mobile-menu">
                 <Link href="#" className="block py-2 px-4 text-white hover:bg-gray-800">Home</Link>
-                // <Link href="#" className="block py-2 px-4 text-white hover:bg-gray-800">About</Link>
                 <Link href="#" className="block py-2 px-4 text-white hover:bg-gray-800">Projects</Link>
                 <Link href="#" className="block py-2 px-4 text-white hover:bg-gray-800">Contact</Link>
                 <button className="block bg-gray-900 text-white py-2 px-4 rounded-lg mt-4">Download Resume</button>
