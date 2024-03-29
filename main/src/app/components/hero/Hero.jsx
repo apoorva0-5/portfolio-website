@@ -10,7 +10,7 @@ const Hero = () => {
       <div>
         <div className="text-4xl font-bold lg:w-4/5">
           <h1>Software Engineer</h1>
-          <p>creating, thoughtful, intuitive interfaces.</p>
+          <p>creating thoughtful, intuitive interfaces.</p>
         </div>
 
         <div className="my-10 text-gray-400 text-lg">
