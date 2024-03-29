@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import Link from "next/link";
 import { BsMailbox } from "react-icons/bs";
+import { SiLeetcode } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -31,35 +32,38 @@ const Hero = () => {
           </p>
 
           <p className="my-5">
-            I&apos;m excited to embark on this journey, eager to collaborate with
-            experienced professionals, and determined to make meaningful
+            I&apos;m excited to embark on this journey, eager to collaborate
+            with experienced professionals, and determined to make meaningful
             contributions to projects as I grow in my career as a Software
             Engineer.
           </p>
         </div>
 
         <div>
-            
-            <div className="flex items-center gap-2">
-                <Link href="https://www.linkedin.com/in/utkarsh125/" className="text-3xl">
-                    <FaLinkedin />
-                </Link>
-                <Link href="https://www.github.com/utkarsh125" className="text-3xl">
-                    <FaSquareGithub />
-                </Link>
+          <div className="flex items-center gap-2">
+            <Link
+              href="https://www.linkedin.com/in/apoorva-dubey13/"
+              className="text-3xl"
+            >
+              <FaLinkedin />
+            </Link>
+            <Link href="https://github.com/apoorva0-5" className="text-3xl">
+              <FaSquareGithub />
+            </Link>
 
-                <div className="text-md p-2 cursor-pointer hover:text-gray-900 hover:bg-white px-4 bg-gray-900 rounded-3xl">
+            {/* <div className="text-md p-2 cursor-pointer hover:text-gray-900 hover:bg-white px-4 bg-gray-900 rounded-3xl">
                   <p className="flex gap-2 items-center">
                     <BsMailbox className="text-md font-bold"/>{`Email Me.`}
                     </p>
-                </div>
-                
-                
-            </div>
+                </div> */}
+
+            <Link href="https://leetcode.com/_apoorva_13/" className="text-3xl">
+              <SiLeetcode />
+            </Link>
+          </div>
         </div>
       </div>
-      <hr className="lg:mx-60 lg:my-10 md:mx-52 md:my-10 my-10 mx-20"/>
-      
+      <hr className="lg:mx-60 lg:my-10 md:mx-52 md:my-10 my-10 mx-20" />
     </div>
   );
 };

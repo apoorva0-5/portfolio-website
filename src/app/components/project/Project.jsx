@@ -9,6 +9,7 @@ const projectsData = [
     title: "OptiHealth Cuisine",
     description:
       "Pretty helpful if you are allergic to any food that has high nutrient profile",
+    projectUrl: "https://github.com/utkarsh125/arcane-project",
   },
 
   {
@@ -17,6 +18,7 @@ const projectsData = [
     title: "Hand Sign Language Detection Tool",
     description:
       "A Machine Learning Model based on Computer Vision, made using TensorFlow",
+    projectUrl: "https://github.com/utkarsh125/tensorflow-hand-sign-detection",
   },
 ];
 

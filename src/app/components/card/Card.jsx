@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Card = ({imageUrl, title, description}) => {
@@ -20,6 +21,7 @@ const Card = ({imageUrl, title, description}) => {
                 </div>
                 </div>
             </div>
+            
         </div>
     </div>
   )

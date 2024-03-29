@@ -11,19 +11,19 @@ const Footer = () => {
           </span>
           <ul class="flex flex-wrap justify-center items-center mt-3 text-sm font-medium text-gray-500 sm:mt-0">
             <li>
-              <a href="#" class="hover:underline me-4 md:me-6">
+              {/* <a href="#" class="hover:underline me-4 md:me-6">
                 About
-              </a>
+              </a> */}
             </li>
             <li>
-              <a href="#" class="hover:underline me-4 md:me-6">
+              <a href="https://github.com/apoorva0-5?tab=repositories" class="hover:underline me-4 md:me-6">
                 git-repository
               </a>
             </li>
             <li>
-              <a href="#" class="hover:underline">
+              {/* <a href="#" class="hover:underline">
                 Contact
-              </a>
+              </a> */}
             </li>
           </ul>
         </div>

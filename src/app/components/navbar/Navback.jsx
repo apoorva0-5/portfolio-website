@@ -59,19 +59,19 @@ function Navbar() {
           </Link>
           {/* <a href="#" className="text-white hover:text-blue-700 ocus:text-red-600">About</a> */}
           <Link
-            href="/projectlist"
+            href="https://github.com/apoorva0-5?tab=repositories"
             className="text-white hover:text-blue-700 ocus:text-red-600"
           >
             Projects
           </Link>
-          <Link
+          {/* <Link
             href="#"
             className="text-white hover:text-blue-700 ocus:text-red-600"
           >
             Contact
-          </Link>
+          </Link> */}
           <button className="bg-gray-900 text-white py-2 px-4 rounded-lg hover:bg-gray-800">
-            Download Resume
+            <Link href="https://drive.usercontent.google.com/u/0/uc?id=1EcALtWo4LQaP88t0Vl32TYSwcYjgrgZ9&export=download">Download Resume</Link>
           </button>
         </div>
       </div>
