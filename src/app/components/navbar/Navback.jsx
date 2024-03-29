@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { CgBot } from 'react-icons/cg';
+import Link from 'next/link';
 
 function Navbar() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -25,20 +26,20 @@ function Navbar() {
 
                 {/* Navbar Links */}
                 <div className="hidden md:flex flex-grow items-center justify-end space-x-4">
-                    <a href="#" className="text-white hover:text-blue-700 focus:text-red-600">Home</a>
-                    <a href="#" className="text-white hover:text-blue-700">About</a>
-                    <a href="#" className="text-white hover:text-blue-700">Projects</a>
-                    <a href="#" className="text-white hover:text-blue-700">Contact</a>
+                    <Link href="#" className="text-white hover:text-blue-700 focus:text-red-600">Home</Link>
+                    {/* <a href="#" className="text-white hover:text-blue-700 ocus:text-red-600">About</a> */}
+                    <Link href="/projectlist" className="text-white hover:text-blue-700 ocus:text-red-600">Projects</Link>
+                    <Link href="#" className="text-white hover:text-blue-700 ocus:text-red-600">Contact</Link>
                     <button className="bg-gray-900 text-white py-2 px-4 rounded-lg hover:bg-gray-800">Download Resume</button>
                 </div>
             </div>
 
             {/* Mobile Menu */}
             <div className={isMobileMenuOpen ? "md:hidden block" : "md:hidden hidden"} id="mobile-menu">
-                <a href="#" className="block py-2 px-4 text-white hover:bg-gray-800">Home</a>
-                <a href="#" className="block py-2 px-4 text-white hover:bg-gray-800">About</a>
-                <a href="#" className="block py-2 px-4 text-white hover:bg-gray-800">Projects</a>
-                <a href="#" className="block py-2 px-4 text-white hover:bg-gray-800">Contact</a>
+                <Link href="#" className="block py-2 px-4 text-white hover:bg-gray-800">Home</Link>
+                // <Link href="#" className="block py-2 px-4 text-white hover:bg-gray-800">About</Link>
+                <Link href="#" className="block py-2 px-4 text-white hover:bg-gray-800">Projects</Link>
+                <Link href="#" className="block py-2 px-4 text-white hover:bg-gray-800">Contact</Link>
                 <button className="block bg-gray-900 text-white py-2 px-4 rounded-lg mt-4">Download Resume</button>
             </div>
         </nav>
