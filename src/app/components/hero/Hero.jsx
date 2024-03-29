@@ -15,24 +15,24 @@ const Hero = () => {
 
         <div className="my-10 text-gray-400 text-lg">
           <p className="my-5">
-            I&apos;m Utkarsh Pandey&lsquo; a passionate Software Engineer entering the
+            I&apos;m Utkarsh Pandey, a passionate Software Engineer entering the
             professional realm with a fervent drive for innovation and
-            problem-solving. As a fresher in the field&lsquo; I bring a solid
+            problem-solving. As a fresher in the field, I bring a solid
             understanding of software development principles and an unwavering
             eagerness to expand my knowledge and skills.
           </p>
 
           <p className="my-5">
             With a foundation built on academic excellence and a thirst for
-            continuous learning&lsquo; I am ready to immerse myself in real-world
+            continuous learning, I am ready to immerse myself in real-world
             challenges and contribute positively to any team I join. I approach
-            tasks with meticulous attention to detail and a proactive mindset&lsquo;
+            tasks with meticulous attention to detail and a proactive mindset,
             always striving to deliver high-quality results.
           </p>
 
           <p className="my-5">
             I&apos;m excited to embark on this journey, eager to collaborate with
-            experienced professionals&lsquo; and determined to make meaningful
+            experienced professionals, and determined to make meaningful
             contributions to projects as I grow in my career as a Software
             Engineer.
           </p>
